@@ -30,4 +30,4 @@ Este curso fue creado por Babel Udemy, y el código fuente y los recursos fueron
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-Disfruta del curso!
+Disfruta del curso.
