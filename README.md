@@ -21,8 +21,8 @@ Para tomar este curso, necesitarás conocimientos básicos de HTML, CSS y JavaSc
 En este repositorio encontrarás el código fuente utilizado en las lecciones del curso, organizado por secciones y temas. Puedes utilizar este código para seguir el curso y realizar los ejercicios prácticos, o como referencia para tus propios proyectos.
 
 ### Para clonar el repositorio usa:
-<a href="" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a> 
-git clone https://github.com/diegorodrguez7/Curso-JQuery-BabelGruop-Proen-a-a-nova.git
+
+🤝 git clone https://github.com/diegorodrguez7/Curso-JQuery-BabelGruop-Proen-a-a-nova.git 🤝
 
 ### Cómo contribuir:
 
