@@ -8,7 +8,9 @@ for (let i = 0; i < 5; i++) {
     type: "checkbox",
     value: i,
     checked: "checked"
-  }).appendTo(".div4");
+  }).appendTo(".div3").click(function () {
+    checkerInput($(this));
+  });
 }
 
 for (let i = 0; i < 5; i++) {
@@ -16,11 +18,26 @@ for (let i = 0; i < 5; i++) {
   $element.attr({
     type: "checkbox",
     value: i
-  }).appendTo(".div3");
+  }).appendTo(".div4");
   $element.prop("checked", true);
+  $element.click(function () {
+    checkerInput($(this));
+  });
 }
 
-$(".div1").click(function () {
+/**
+ * 
+ * @param {*} $ele 
+ */
+function checkerInput($ele) {
+  let temporary = "";
+  temporary += `<div>Attr: ${$ele.attr("checked")}</div>`;
+  temporary += `<div>Prop: ${$ele.prop("checked")}</div>`;
+  temporary += `<div>Is: ${$ele.is(":checked")}</div>`;
+  $(".div1").html(temporary);
+}
+
+$(".div2").click(function () {
   counter++;
   $(".div1").html(`<div>Counter: ${counter}</div>`);
 });
@@ -28,6 +45,7 @@ $(".div1").click(function () {
 $("div").click(function () {
   const random = Math.floor(Math.random() * 100);
   $(this).attr("id", `id${random}`);
+  console.log(`id${random}`);
 });
 
 $("#btn1").click(() => {
